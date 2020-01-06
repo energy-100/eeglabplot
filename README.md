@@ -6,7 +6,7 @@
 ## 1.数据源的存储结构
 数据源为excel文件，excel文件内的数据截图如下： 
 
-![图片1](https://github.com/energy-100/eeglabplot/tree/master/image/20200102172432424.png)
+![图片1](./image/20200102172432424.png)
 
 <br/>
 
@@ -44,7 +44,7 @@
 
 算法生成的图片截图如下：
 
-![图片2](https://github.com/energy-100/eeglabplot/tree/master/image/20200102172240655.png)
+![图片2](./image/20200102172240655.png)
 
 <br/>
 ## 4.依赖文件
