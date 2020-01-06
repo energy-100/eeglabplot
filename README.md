@@ -4,8 +4,10 @@
 调用egglab实现批量绘制脑电拓扑图
 使用**topoplot**函数可以轻松实现在matlab的fgure中绘制脑电拓扑图，但对于大量数据，如果每次都手动调用topoplot绘制单张拓扑图片，将会消耗大量时间和精力，这里手写了一个matlab脚本读取存放在excel文件中的**批量数据**并实现**批量绘图**。
 ## 1.数据源的存储结构
-数据源为excel文件，excel文件内的数据截图如下：
+数据源为excel文件，excel文件内的数据截图如下： 
+
 ![图片1](https://github.com/energy-100/eeglabplot/tree/master/image/20200102172432424.png)
+
 <br/>
 
 数据基本分为三个部分:特征列，数据列和电极点列，其中：<br/>
@@ -41,6 +43,9 @@
 	...	
 
 算法生成的图片截图如下：
-![图片1](https://github.com/energy-100/eeglabplot/tree/master/image/20200102172240655.png)<br/>
+
+![图片2](https://github.com/energy-100/eeglabplot/tree/master/image/20200102172240655.png)
+
+<br/>
 ## 4.依赖文件
 运行此代码需要用到topoplot、chanlocsseek、cbar.m和chanlocsposi.mat文件，
